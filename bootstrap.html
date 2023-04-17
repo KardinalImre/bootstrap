@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      text-align: center;
+    }
+
+    .responsive{
+        width: 100%;
+    }
+    
+    #table{
+        border: 2px solid black;
+    }
+    </style>
+</head>
+<body>
+<header>
+    <div class="h1 text-white text-center">Kardinál Imre</div>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+          <img src="wide.jpg" class="responsive" alt="">
+      </div>
+      <div class="col-sm-4">
+          <ul>
+              <li>Rak1</li>
+              <li>Rak2</li>
+              <li>Rak3</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad labore cupiditate odit, eius minus quam adipisci doloribus ducimus voluptas dignissimos quod quo, delectus animi aspernatur sit repellat ratione? Impedit.
+        </div>
+        <div class="col-sm-8">
+            <table class="table" id="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Alkatrész</th>
+                    <th scope="col">Kép</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Billentyűzet</td>
+                    <td><img src="bill.jpg" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Egér</td>
+                    <td><img src="eger.jpg" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Router</td>
+                    <td><img src="router.jpg" alt=""></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Rak</p>
+  </div>
+</body>
+</html>
